@@ -240,6 +240,7 @@ In the first part of line 4, where the function remove is called, the function r
 		int cmp = PyObject_RichCompareBool(self->ob_item[i], v, Py_EQ);
 		if (cmp > 0) {
 			list_ass_slice(self, i, i+1, (PyObject *)NULL);
+			return
 		}
 	}
 
