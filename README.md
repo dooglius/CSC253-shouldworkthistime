@@ -98,7 +98,7 @@ In the main interpreter loop, the following code handles the list-building instr
             break;
 
 			
-This begins by calling PyList_New, which allocates a new PyListObject. The physical structure of a PyListObject is this:
+This begins by calling <code>PyList_New</code>, which allocates a new <code>PyListObject</code>. The physical structure of a <code>PyListObject</code> is this:
 
     typedef struct {
         PyObject_VAR_HEAD
