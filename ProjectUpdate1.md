@@ -136,6 +136,7 @@ I'm modifying my project goals a little bit based on what I've learned so far, b
 - Make sure there are no issues with the Posix library differences
 - Find a better way to test performance
 - Compare performance against existing solutions (numpy) for high-performance processing.
+
 ### Stretch goals
 - A generic library that can be used to call existing C functions in existing libraries
 - A way to have a sort-of JIT so that Python can create functions on the fly and then have C code execute them efficiently
